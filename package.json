@@ -1,7 +1,7 @@
 {
-  "name": "aglio-theme-bootstrap",
+  "name": "aglio-theme-shoelace",
   "version": "1.0.0",
-  "description": "Bootstrap aglio engine",
+  "description": "Shoelace aglio engine",
   "main": "lib/main.js",
   "scripts": {
     "build": "coffeelint src/*.coffee && coffee -o lib -c src",
@@ -16,14 +16,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MartinParrish/aglio-theme-bootstrap"
+    "url": "https://github.com/MartinParrish/aglio-theme-shoelace"
   },
   "author": "Martin Parrish",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MartinParrish/aglio-theme-bootstrap/issues"
+    "url": "https://github.com/MartinParrish/aglio-theme-shoelace/issues"
   },
-  "homepage": "https://github.com/MartinParrish/aglio-theme-bootstrap",
+  "homepage": "https://github.com/MartinParrish/aglio-theme-shoelace",
   "dependencies": {
     "coffee-script": "^1.8.0",
     "highlight.js": "^8.4.0",
