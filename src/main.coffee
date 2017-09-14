@@ -526,6 +526,11 @@ exports.render = (input, options, done) ->
   # Enable code highlighting for unfenced code blocks
   md.renderer.rules.code_block = md.renderer.rules.fence
 
+  # Add 'table' class to table open tag
+  md.renderer.rules.table_open = function(tokens, idx) {
+    return '<table class="table">';
+  };
+
   benchmark.start 'decorate'
   decorate input, md, slugCache, options.verbose
   benchmark.end 'decorate'
