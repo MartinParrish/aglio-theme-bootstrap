@@ -24,4 +24,4 @@ Here are the differences:
 
 #### Markdown-it table
 
-Martdown-it outputs the open table tag with `class="table"`.
+Markdown-it outputs the open table tag with `class="table"`.
